@@ -1,0 +1,249 @@
+@import url('https://www.miskatonic.org/images/intersecting-circles.gif');
+
+body {
+	font-family: Garamond, serif;
+	margin-top: 20px;
+}
+
+a {
+	text-decoration:none;
+	color:darkgray;
+}
+
+a:hover {
+	text-decoration:underline;
+	font-style:italic;
+	color:red;
+}
+
+a:visited {
+	text-decoration:none;
+	font-style:italic;
+	color:gray
+}
+
+a:active {
+	text-decoration:none;
+	color:red;
+}
+
+h1 {
+	display: block;
+	position: absolute;
+	font-size: 1em;
+	text-transform: lowercase;
+  padding-right: 15px;
+	border-right :1px solid darkgray;
+}
+
+h2 {
+ display: block;
+ position: absolute;
+ font-family: Garamond , serif;
+ font-style: italic;
+ font-weight: bold;
+ font-size: 80px;
+ line-height: .7;
+ width: 300px;
+ border-bottom: 1px solid darkgray;
+ margin-left: 140px;
+}
+
+h2 abbr {
+	color:#34375f;
+}
+
+.summary {
+	font-family: helvetica, sans-serif;
+	font-size: 12px;
+	width: 250px;
+	line-height: 1.5;
+	margin-left: 140px;
+	padding-top: 300px;
+	margin-right: 0px;
+}
+
+.preamble	{
+	margin-left: 450px;
+}
+
+#zen-explanation {
+	margin-left: 700px;
+	margin-top: 22px;
+}
+
+.participation {
+	margin-left: 700px;
+	margin-top: 470px;
+
+}
+
+.benefits {
+	margin-left: 700px;
+	margin-top: 1060px;
+
+}
+
+.requirements {
+	margin-left: 960px;
+	margin-top: 470px;
+}
+
+.design-selection {
+	margin-left: 960px;
+	margin-top: 1390px;
+}
+
+.design-archives {
+	margin-left: 960px;
+	margin-top: 1725px;
+}
+
+.zen-resources {
+	margin-left: 960px;
+	margin-top: 1830px;
+}
+
+p {
+	font-family: helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+h3 {
+		text-transform: lowercase;
+}
+
+footer {
+		margin-left: 140px;
+	}
+
+.preamble, #zen-explanation, .participation, .benefits, .requirements, .zen-resources, .design-archives, .design-selection {
+  border: transparent;
+  width: 200px;
+  display: block;
+  position: absolute;
+  padding: 15px;
+}
+
+/* override css for mobile browsers */
+@media all and (max-width:1190px) {
+	.requirements {
+		margin-left: 700px;
+		margin-top: 1285px;
+	}
+	.design-selection {
+		margin-left: 700px;
+		margin-top: 2210px;
+	}
+	.design-archives {
+		margin-left: 700px;
+		margin-top: 2550px;
+	}
+	.zen-resources {
+		margin-left: 700px;
+		margin-top: 2655px;
+	}
+}
+@media all and (max-width:920px) {
+	#zen-explanation {
+		margin-left: 450px;
+		margin-top: 415px;
+	}
+	.participation {
+		margin-left: 450px;
+		margin-top: 870px;
+	}
+
+	.benefits {
+		margin-left: 450px;
+		margin-top: 1460px;
+	}
+	.requirements {
+		margin-left: 450px;
+		margin-top: 1685px;
+	}
+	.design-selection {
+		margin-left: 450px;
+		margin-top: 2610px;
+	}
+
+		.design-archives {
+			margin-left: 450px;
+			margin-top: 2950px;
+		}
+
+		.zen-resources {
+			margin-left: 450px;
+			margin-top: 3055px;
+		}
+	}
+
+@media all and (max-width:675px) {
+	.preamble, #zen-explanation, .participation, .benefits, .requirements, .zen-resources, .design-archives, .design-selection {
+	  padding-left: 0px;
+		width: 275px;
+	}
+	p {
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 12px;
+	}
+
+	h2 {
+		margin-left: 100px;
+	}
+
+	h3 {
+		color:#34375f;
+		font-size: 25px;
+	}
+
+	.summary {
+		margin-left: 100px;
+	}
+
+	.preamble	{
+		margin-left: 100px;
+	}
+	#zen-explanation {
+		margin-left: 100px;
+		margin-top: 750px;
+	}
+	.participation {
+		margin-left: 100px;
+		margin-top: 1600px;
+	}
+	.benefits {
+		margin-left: 100px;
+		margin-top: 2710px;
+	}
+	.requirements {
+		margin-left: 100px;
+		margin-top: 3150px;
+	}
+	.design-selection {
+		margin-left: 100px;
+		margin-top: 5030px;
+	}
+
+	.sidebar a {
+		font-size: 20px;
+	}
+
+	.design-archives {
+		margin-left: 100px;
+		margin-top: 5415px;
+	}
+
+	.zen-resources {
+		margin-left: 100px;
+		margin-top: 5550px;
+	}
+
+	footer {
+		margin-left: 100px;
+		border-bottom: 1px solid darkgray;
+	}
+}
